@@ -10,7 +10,7 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 
 # Install dependencies.
-RUN npm ci
+RUN npm install
 
 # Necessary to run before adding application code to leverage Docker cache
 RUN npm cache clean --force
@@ -18,11 +18,22 @@ RUN npm cache clean --force
 # Add src project
 ADD . .
 
-# Build project
+# Build dist
 RUN npm run build
 
+# nginx production environment
+FROM nginx:stable-alpine AS deploy
+
+WORKDIR /usr/src/app
+
+# Copy build directory
+COPY --from=build /usr/src/app/out /usr/share/nginx/html
+
+# copy nginx confiuration file
+COPY .ci/nginx.conf /etc/nginx/conf.d/default.conf
+
 # expose port 80
-EXPOSE 3000
+EXPOSE 80
 
 # Run nginx
-CMD ["node", ".output/server/index.mjs"]
+CMD ["nginx", "-g", "daemon off;"]
