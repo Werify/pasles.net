@@ -39,9 +39,9 @@
 
           <a
             href="#"
-            class="w-full sm:w-auto bg-white border hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-300 text-gray-800 rounded-lg inline-flex items-center justify-center px-4 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-800">
+            class="w-full sm:w-auto dark:text-white dark:hover:bg-gray-800 bg-white border hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-300 text-gray-800 rounded-lg inline-flex items-center justify-center px-4 py-2.5 dark:bg-gray-900 dark:focus:ring-gray-800">
             <svg
-              class="mr-2 -ml-1 w-5 h-5"
+              class="mr-2 -ml-1 w-5 h-5 dark:text-gray-200"
               fill="currentColor"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg">
@@ -270,7 +270,7 @@
     </div>
   </section>
 
-  <section class="bg-white dark:bg-gray-900">
+  <section class="bg-dark dark:bg-gray-900">
     <div
       class="gap-16 py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-3 lg:py-16 lg:px-6">
       <div class="text-gray-500 sm:text-lg dark:text-gray-400">
@@ -498,9 +498,9 @@
         class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
         <div class="border p-4 px-7 rounded-2xl">
           <div
-            class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-gray-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+            class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-gray-100 lg:h-12 lg:w-12 dark:bg-gray-700">
             <svg
-              class="w-5 h-5 text-gray-600 lg:w-6 lg:h-6 dark:text-primary-300"
+              class="w-5 h-5 text-gray-600 lg:w-6 lg:h-6 dark:text-gray-300"
               fill="currentColor"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg">
@@ -519,9 +519,9 @@
         </div>
         <div class="border p-4 px-7 rounded-2xl">
           <div
-            class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-gray-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+            class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-gray-100 lg:h-12 lg:w-12 dark:bg-gray-700">
             <svg
-              class="w-5 h-5 text-gray-600 lg:w-6 lg:h-6 dark:text-gary-300"
+              class="w-5 h-5 text-gray-600 lg:w-6 lg:h-6 dark:text-gray-300"
               fill="currentColor"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg">
@@ -537,9 +537,9 @@
         </div>
         <div class="border p-4 px-7 rounded-2xl">
           <div
-            class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-gary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+            class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-gary-100 lg:h-12 lg:w-12 dark:bg-gray-700">
             <svg
-              class="w-5 h-5 text-gary-600 lg:w-6 lg:h-6 dark:text-gary-300"
+              class="w-5 h-5 text-gary-600 lg:w-6 lg:h-6 dark:text-gary-200"
               fill="currentColor"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg">
@@ -561,9 +561,9 @@
         </div>
         <div class="border p-4 px-7 rounded-2xl">
           <div
-            class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-gray-100 lg:h-12 lg:w-12 dark:bg-gray-900">
+            class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-gray-100 lg:h-12 lg:w-12 dark:bg-gray-700">
             <svg
-              class="w-5 h-5 text-gray-600 lg:w-6 lg:h-6 dark:text-gray-300"
+              class="w-5 h-5 text-gray-600 lg:w-6 lg:h-6 dark:text-gray-200"
               fill="currentColor"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg">
@@ -583,9 +583,9 @@
         </div>
         <div class="border p-4 px-7 rounded-2xl">
           <div
-            class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-gray-100 lg:h-12 lg:w-12 dark:bg-gray-900">
+            class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-gray-100 lg:h-12 lg:w-12 dark:bg-gray-700">
             <svg
-              class="w-5 h-5 text-gray-600 lg:w-6 lg:h-6 dark:text-gray-300"
+              class="w-5 h-5 text-gray-600 lg:w-6 lg:h-6 dark:text-gray-200"
               fill="currentColor"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg">
@@ -603,9 +603,9 @@
         </div>
         <div class="border p-4 px-7 rounded-2xl">
           <div
-            class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-gray-100 lg:h-12 lg:w-12 dark:bg-gray-900">
+            class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-gray-100 lg:h-12 lg:w-12 dark:bg-gray-700">
             <svg
-              class="w-5 h-5 text-gray-600 lg:w-6 lg:h-6 dark:text-gray-300"
+              class="w-5 h-5 text-gray-600 lg:w-6 lg:h-6 dark:text-gray-200"
               fill="currentColor"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg">
@@ -624,7 +624,7 @@
       </div>
     </div>
   </section>
-  <section class="bg-gray-900 dark:bg-gray-900 py-20">
+  <section class="bg-gray-900 dark:bg-gray-800 py-20">
     <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
       <div class="mx-auto max-w-lg text-center">
         <p
@@ -639,7 +639,7 @@
         </p>
         <a
           href="#"
-          class="w-full py-1 sm:w-auto mt-6 bg-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-300 text-black rounded-lg inline-flex items-center justify-center px-2 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-800">
+          class="w-full py-1 sm:w-auto mt-6 bg-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-300 text-black rounded-lg inline-flex items-center justify-center px-2 dark:bg-gray-200 dark:hover:bg-gray-300 dark:focus:ring-gray-800">
           <svg
             class="mr-3 w-7 h-7"
             aria-hidden="true"
