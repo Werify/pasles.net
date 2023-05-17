@@ -1,11 +1,18 @@
 interface PricingCard {
-  type: string;
+  type: IType;
   price: number;
   currency: string;
-  period: string;
   subtitle: string;
-  features: string[];
-  badge?: string;
-  tooltip?: string;
-  link: string;
+  features: IFeatures[];
+  btn: string;
+}
+
+interface IType {
+  icone: string;
+  text: string;
+}
+
+interface IFeatures {
+  icon: string;
+  text: string;
 }
