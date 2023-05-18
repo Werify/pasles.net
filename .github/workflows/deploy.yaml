@@ -11,7 +11,7 @@ env:
   RELEASE_NAME: Werify-web
   RELEASE_NAMESPACE: Werify-web
   RELEASE_DOMAIN: pasles.net
-  NEXT_RELEASE_DOMAIN: next-pasles.net
+  NEXT_RELEASE_DOMAIN: next.pasles.net
 
 jobs:
   lint:
