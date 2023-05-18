@@ -8,8 +8,8 @@ on:
 
 env:
   BRANCH_NAME: ${{ github.head_ref || github.ref_name }}
-  RELEASE_NAME: Werify-web
-  RELEASE_NAMESPACE: Werify-web
+  RELEASE_NAME: werify-web
+  RELEASE_NAMESPACE: werify-web
   RELEASE_DOMAIN: pasles.net
   NEXT_RELEASE_DOMAIN: next.pasles.net
 
