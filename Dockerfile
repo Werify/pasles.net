@@ -1,4 +1,4 @@
-FROM node:18.6.0-alpine AS build
+FROM node:18.14.2-alpine AS build
 
 # For handling Kernel signals properly
 RUN apk add --no-cache git
@@ -10,7 +10,7 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 
 # Install dependencies.
-RUN npm ci
+RUN npm install
 
 # Necessary to run before adding application code to leverage Docker cache
 RUN npm cache clean --force

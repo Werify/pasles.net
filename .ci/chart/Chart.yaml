@@ -1,0 +1,12 @@
+apiVersion: v2
+appVersion: 0.0.1
+name: werify-web
+version: 0.0.1
+description: A helm chart for werify web project
+home: https://github.com/ werify/pasles.net
+maintainers:
+- name: DevOps
+  url: https://github.com/
+sources:
+- https://github.com/werify/pasles.net
+type: application

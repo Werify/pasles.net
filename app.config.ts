@@ -42,19 +42,19 @@ interface IFooter {
 }
 export default defineAppConfig({
   docus: {
-    title: 'Trader4 Documentation',
-    description: 'Trader4 Docs',
-    url: 'http://trader4.net/docs',
-    image: '/social-card-preview.png',
+    title: "Trader4 Documentation",
+    description: "Trader4 Docs",
+    url: "http://trader4.net/docs",
+    image: "/social-card-preview.png",
     socials: {
-      twitter: '@trader4',
-      github: 'traderfour',
+      twitter: "@trader4",
+      github: "traderfour",
     },
   },
   config: {
     header: {
-      logo: "/img/h-logo.svg",
-      darkLogo: "/img/h-logo-dark.svg",
+      logo: "/img/logo.svg",
+      darkLogo: "/img/logo-dark.svg",
       menu: [
         { title: "Pricing", link: "/pricing" },
         { title: "Help", link: "/help" },
@@ -95,8 +95,8 @@ export default defineAppConfig({
     } as IHeader,
 
     footer: {
-      logo: "/img/h-logo.svg",
-      darkLogo: "/img/h-logo-dark.svg",
+      logo: "/img/logo.svg",
+      darkLogo: "/img/logo-dark.svg",
       hideEmailBox: false,
       emailAPI: "https://api.briofy.net/api/Email/ContactUs",
       copyRight: `<span>© 2017-2023
