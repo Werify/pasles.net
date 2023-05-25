@@ -52,6 +52,9 @@ export default defineAppConfig({
     },
   },
   config: {
+    layout: {
+      container: false,
+    },
     header: {
       logo: "/img/logo.svg",
       darkLogo: "/img/logo-dark.svg",
