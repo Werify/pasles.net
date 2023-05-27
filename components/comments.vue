@@ -44,7 +44,6 @@ const tabItems = ref([
               blandit odio felis quis ligula.`,
   },
 ]);
-
 </script>
 <template>
   <section class="bg-dark dark:bg-gray-900">
@@ -65,6 +64,9 @@ const tabItems = ref([
           >
             <button
               class="p-4 w-full rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700"
+              :class="
+                activeTab === index ? 'bg-gray-100 dark:bg-gray-700' : ''
+              "
               @click="activeTab = index"
             >
               <figcaption class="space-y-2">
@@ -118,7 +120,6 @@ const tabItems = ref([
             class="p-4 rounded-lg shadow-sm hover:shadow-lg dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-gray-400 dark:hover:text-gray-200 transition duration-300 ease-in-out mb-4"
             :key="index"
             v-show="activeTab === index"
-
           >
             <svg
               class="mb-3 h-8 text-gray-500 dark:text-gray-600"
